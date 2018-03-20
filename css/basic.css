@@ -18,18 +18,17 @@ div.menuitem h2 {
 	padding-right: 3em;
 }
 
-div.menuitem p {
-	width: 90%;
-	font-size: 14pt;
+
+div.menuitem h2 :hover {
+	background-color : gray;
+	color : cyan;
+}
+
+div.menuitem p :hover {
+	display: black;
 }
 
 div.menuitem p img {
 	float: left;
 	margin: 3px 30px 3px 60px;
-}
-
-
-div.menuitem h2:hover {
-	color: cyan;
-	background-color: gray;
 }
